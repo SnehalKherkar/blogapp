@@ -1,0 +1,480 @@
+.logo {
+  height: 50px;
+  width: 50px;
+}
+.header {
+  background-color: #1a1613 !important;
+  height: max-content !important;
+}
+
+@media (max-width: 714px) {
+  .hide {
+    display: none;
+  }
+  .logo {
+    height: 25px !important;
+    width: 25px !important;
+  }
+  .headsub {
+    height: 25px !important;
+  }
+}
+.menuItems {
+  color: rgb(216, 212, 212) !important;
+}
+.menuItems:hover {
+  text-decoration: underline !important;
+  color: white !important;
+  font-weight: 500;
+}
+.white-placeholder::placeholder {
+  color: white;
+}
+.white-placeholder {
+  border-radius: 20px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid black;
+  font-size: small;
+  background-color: gray;
+  color: white;
+  margin-left: -15%;
+  margin-right: 11%;
+}
+@media (max-width: 768px) {
+  input[type="text"] {
+    width: 50%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+.userlogo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 3%;
+  cursor: pointer;
+}
+.userlist {
+  display: flex;
+  margin-top: 2%;
+  align-items: center;
+  justify-content: flex-start;
+  height: max-content;
+  .userlist1 {
+    line-height: 0.8px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+    p {
+      color: blue;
+      cursor: pointer;
+      font-weight: 600;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: small;
+      letter-spacing: 0.03rem;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+.viewlogo {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  left: 22%;
+  cursor: pointer;
+}
+.viewlogo:hover {
+  scale: 1.2;
+}
+.loginLeftlogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background-color: #2e3245;
+  color: #fac112;
+  overflow: hidden;
+  font-family: cursive;
+  img {
+    height: 250px;
+    width: 250px;
+  }
+  h4 {
+    font-size: 70px;
+    font-weight: bold;
+    font-family: "Great Vibes", cursive;
+    letter-spacing: 1px;
+  }
+  h6 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Great Vibes", cursive;
+    letter-spacing: 1px;
+  }
+  @media (max-width: 768px) {
+    h4 {
+      font-size: 55px;
+    }
+    h6 {
+      font-size: 18px;
+    }
+    img {
+      height: 150px;
+      width: 150px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .loginLeftlogo {
+    height: max-content;
+    width: 100%;
+  }
+}
+.loginright {
+  background-color: #2e3245;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .FormIn {
+    color: white;
+    position: relative;
+    .labels {
+      margin-top: 5%;
+      margin-bottom: 2%;
+    }
+    p {
+      font-size: small;
+      color: cyan;
+      position: absolute;
+      margin-top: 2%;
+      right: 0%;
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+    button {
+      width: 100%;
+      font-size: medium;
+      color: white;
+      background-color: rgb(10, 201, 207);
+      border: none;
+      border-radius: 20px;
+      padding: 5px;
+      font-weight: 500;
+      cursor: pointer;
+      margin-bottom: 10%;
+      margin-top: 2%;
+      &:hover {
+        background-color: rgb(8, 234, 241);
+      }
+    }
+  }
+}
+.Formin1 {
+  color: white !important;
+}
+.loginfn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 10%;
+  h5 {
+    cursor: pointer;
+    font-weight: 400;
+  }
+}
+@media (max-width: 768px) {
+  .loginfn {
+    margin-bottom: 5%;
+    margin-top: 10%;
+  }
+}
+.inputfield {
+  color: white !important;
+  background-color: transparent !important;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(124, 121, 121);
+  font-size: small;
+  border-radius: 0px !important;
+  padding: 2px !important;
+}
+.inputfield:focus {
+  outline: none !important;
+  border: none !important;
+  border-bottom: 1px solid white !important;
+  box-shadow: none !important;
+}
+.forminput {
+  width: 70%;
+}
+.loginpage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f374b;
+}
+.loginpage1 {
+  width: 90%;
+  height: 80vh;
+  border-radius: 20px !important;
+}
+@media only screen and (max-width: 768px) {
+  .loginpage {
+    background-color: #2f374b;
+  }
+  .loginpage1 {
+    width: 100%;
+    height: max-content;
+  }
+}
+.nextprebtns {
+  display: flex;
+  .cancelButton {
+    background-color: transparent !important;
+    &:hover {
+      background-color: red !important;
+    }
+  }
+  .previousButton {
+    color: white;
+    background-color: transparent !important;
+    &:hover {
+      background-color: cyan !important;
+    }
+  }
+  .nextButton {
+    color: white;
+    background-color: transparent !important;
+    &:hover {
+      background-color: cyan !important;
+    }
+  }
+}
+.loginfn.active {
+  color: white;
+}
+.loginfn.disactive {
+  color: rgb(167, 160, 160);
+}
+.logohome {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 1%;
+}
+.home {
+  height: max-content;
+  display: flex;
+  align-items: center;
+  font-size: small;
+  position: relative;
+  p {
+    margin-top: 3%;
+    cursor: pointer;
+    font-size: small;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 0.5px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.postimg {
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.symbolsoflikecomment {
+  display: flex;
+  align-items: center;
+  .likelogo {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    margin-right: 1%;
+  }
+}
+.addcomment {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: relative;
+  .sendbtn{
+    width: 20px;
+    position:absolute;
+    right: 0;
+    &:hover{
+      scale: 1.15;
+    }
+  }
+  input {
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    font-size: small;
+    border-bottom: 1px solid black;
+    padding: 1%;
+    &:focus {
+      outline: none !important;
+      border: none !important;
+      border-bottom: 1px solid black !important;
+      box-shadow: none !important;
+    }
+  }
+}
+.contentpost{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: small;
+  font-weight: 400;
+  color: #2f374b;
+}
+.likecounts{
+  cursor: pointer;
+}
+.comments{
+  height: max-content;
+  width: 100%;
+  position: relative;
+  span{
+    cursor: pointer;
+    font-size: small;
+    color: black;
+    font-weight: 500;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+.likesphoto{
+  .likesbyphoto{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 2%;
+    cursor: pointer;
+  }
+  span{
+    cursor: pointer;
+    &:hover{
+      color: blue;
+      font-weight: 400;
+      text-decoration: underline;
+    }
+  }
+}
+.exctraabooutcomments{
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  right: 0;
+  top: 4%;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 4px;
+  max-width: max-content;
+  border-radius: 15px;
+  width: 100%;
+  font-weight: 500;
+  cursor: pointer;
+  span{
+    padding: 10px;
+    width: max-content;
+    &:hover{
+      background-color: rgb(201, 197, 197);
+      border-radius: 15px;
+    }
+  }
+}
+
+.modal-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-weight: bold;
+}
+.dropzone {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.preview {
+  max-width: 100%;
+  max-height: 200px;
+  margin-top: 20px;
+}
+
+.placeholder {
+  color: #2f374b;
+}
+.PostFormBtns{
+  display: flex;
+  width: 100%;
+  button{
+    width: 50%;
+    border-radius: 20px;
+  }
+}
+.bpost{
+  width: 100%;
+  span{
+    color: black;
+    font-size: small;
+    font-weight: 500;
+  }
+  &:hover{
+    scale: 1.05;
+    cursor: pointer;
+    transition: ease-in-out;
+    text-decoration: underline;
+  }
+}
+.postImage{
+  padding: 3px;
+  img{
+    width: 100%;
+    min-height: 142px;
+    max-height: 142px;
+    cursor: pointer;
+    &:hover{
+      scale: 1.07;
+      transition: ease-in-out;
+    }
+  }
+}
